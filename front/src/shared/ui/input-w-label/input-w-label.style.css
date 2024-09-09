@@ -1,0 +1,16 @@
+.input-w-label {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-w-label label {
+    padding-bottom: 5px;
+}
+
+.input-w-label input {
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}

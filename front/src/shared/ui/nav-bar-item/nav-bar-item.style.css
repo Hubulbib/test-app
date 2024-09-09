@@ -1,0 +1,17 @@
+.nav-bar-item {
+    padding: 10px;
+    background-color: #2196F3;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    color: #FFFFFFB2;
+}
+.nav-bar-item h1 {
+    font-size: 14px;
+}
+
+.nav-bar-item:hover {
+    background-color: #1E88E5;
+}

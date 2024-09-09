@@ -1,0 +1,27 @@
+.cats-page {
+    padding: 50px;
+}
+
+.cats-page__list {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    margin-bottom: 50px;
+}
+
+.cats-page__load {
+    display: flex;
+    justify-content: center;
+}
+.cats-page__load h1 {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.2s;
+}
+.cats-page__load h1:hover {
+    border-radius: 10px;
+    background-color: #1E88E5;
+}
